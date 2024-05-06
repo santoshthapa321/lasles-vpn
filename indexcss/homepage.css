@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-wrap: wrap;
+}
+.hpart1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.hpart2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  color: black;
+}
+.hpart3 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+.SignUp {
+  border: 2px solid red;
+  border-radius: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.mb1part{margin-top: 80px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.mbp1{ max-width:440px;
+    display:flex;
+    align-items: flex-start;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.mbp1 h1{font-size: 40px;}
+.mbp1 a{
+    background-color: red;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px; padding-right: 50px; padding-left: 50px;
+}
+.mb2part{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
